@@ -1,15 +1,14 @@
 {
-  "name": "egg-bbb324-plugin",
-  "version": "1.0.1",
-  "description": "",
+  "name": "@xj/egg-plugin",
+  "version": "1.0.0",
+  "description": "egg 的一款插件",
+  "main": ".autod.conf.js",
   "eggPlugin": {
     "name": "eggMyPlugin"
   },
-  "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-plugin"
-  ],
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
@@ -44,12 +43,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-bbb324-plugin.git"
+    "url": "git+https://github.com/bbb324/node-plugin.git"
+  },
+  "author": "xj",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/bbb324/node-plugin/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-bbb324-plugin#readme",
-  "author": "",
-  "license": "MIT"
+  "homepage": "https://github.com/bbb324/node-plugin#readme"
 }
