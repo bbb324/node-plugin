@@ -2,13 +2,10 @@
   "name": "@xj/egg-plugin",
   "version": "1.0.0",
   "description": "egg 的一款插件",
-  "main": ".autod.conf.js",
   "eggPlugin": {
     "name": "eggMyPlugin"
   },
-  "directories": {
-    "test": "test"
-  },
+ 
   "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
