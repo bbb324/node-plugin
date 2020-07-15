@@ -1,6 +1,6 @@
 {
   "name": "egg-bbb324-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "eggMyPlugin"
