@@ -1,11 +1,10 @@
 {
   "name": "@xj/egg-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg 的一款插件",
   "eggPlugin": {
     "name": "eggMyPlugin"
   },
- 
   "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
