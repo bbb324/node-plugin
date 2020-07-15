@@ -1,5 +1,5 @@
 {
-  "name": "egg-xj-plugin",
+  "name": "egg-bbb324-plugin",
   "version": "1.0.0",
   "description": "",
   "eggPlugin": {
@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-xj-plugin.git"
+    "url": "git+https://github.com/eggjs/egg-bbb324-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-xj-plugin#readme",
+  "homepage": "https://github.com/eggjs/egg-bbb324-plugin#readme",
   "author": "",
   "license": "MIT"
 }
