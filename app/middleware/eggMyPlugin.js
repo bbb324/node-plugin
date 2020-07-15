@@ -16,8 +16,15 @@ const tpl = '<!DOCTYPE html>\n' +
 module.exports = (options, app) => {
     // 干预渲染
    return async function eggMwTest(ctx, next) {
-      console.log('==========+++')
-      console.log(ctx.body)
+      console.log('==== app ==')
+      console.log(app)
+      console.log('====== options ==')
+      console.log(options)
+      console.log('====== ctx ==')
+      console.log(ctx);
+      console.log('====== ctx.body ==')
+      console.log(ctx.body);
+
       ctx.set('Content-Type', 'text/html; charset=utf-8');
       ctx.body = tpl;
 

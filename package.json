@@ -1,20 +1,23 @@
 {
-  "name": "@xj/egg-plugin",
-  "version": "1.0.2",
+  "name": "@bbb324/egg-plugin",
+  "version": "1.0.0",
   "description": "egg 的一款插件",
   "eggPlugin": {
     "name": "eggMyPlugin"
   },
+  "main": "app.js",
   "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg": "^2.16.0",
     "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
     "eslint-config-egg": "^7.1.0"
+  },
+  "ci": {
+    "version": "6, 8, 10, 12",
+    "license": true
   },
   "engines": {
     "node": ">=8.0.0"
@@ -34,9 +37,6 @@
     "config",
     "app"
   ],
-  "ci": {
-    "version": "8, 10"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bbb324/node-plugin.git"
